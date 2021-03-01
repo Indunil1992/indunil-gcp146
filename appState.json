@@ -1,0 +1,133 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "564d6f19-5cc5-423f-a0bb-0fa347aab362": {
+        "id": "564d6f19-5cc5-423f-a0bb-0fa347aab362",
+        "parent": null,
+        "name": "indunil-gcp146.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indunil-gcp146.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "indunilGcp146"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1614587206759
+      },
+      "370326d3-440e-40b1-bc5c-b2ae3e20ec34": {
+        "id": "370326d3-440e-40b1-bc5c-b2ae3e20ec34",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "cb7dd3a1-1075-43b2-8c51-80500b6cca3b": {
+        "id": "cb7dd3a1-1075-43b2-8c51-80500b6cca3b",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "dfcc526a-1958-4b64-9ad3-993d899f2dda": {
+        "id": "dfcc526a-1958-4b64-9ad3-993d899f2dda",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "15dde86a-b2e0-4543-8eb3-c99a25442a2b": {
+        "id": "15dde86a-b2e0-4543-8eb3-c99a25442a2b",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "564d6f19-5cc5-423f-a0bb-0fa347aab362"
+    ],
+    "currentFileId": "564d6f19-5cc5-423f-a0bb-0fa347aab362",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "pubsubtestIndunil14072020": {
+        "name": "pubsubtestIndunil14072020",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 1,
+          "topic": {
+            "name": "test-indunil14072020",
+            "subscriptions": []
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.0",
+    "projectName": "indunil-gcp146",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1614587218440
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indunil-gcp146",
+      "url": "https://github.com/Indunil1992/indunil-gcp146"
+    }
+  }
+}
